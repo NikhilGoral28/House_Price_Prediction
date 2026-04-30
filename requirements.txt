@@ -1,2 +1,7 @@
 streamlit
 joblib
+sklearn
+pandas
+numpy
+matplotlib
+seaborn
