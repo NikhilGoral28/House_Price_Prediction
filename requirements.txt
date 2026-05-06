@@ -1,7 +1,11 @@
-streamlit
-joblib
-scikit-learn==1.6.1
+flask
 pandas
+scikit-learn
+xgboost
+joblib
+waitress
+python-dotenv
 numpy
 matplotlib
 seaborn
+catboost

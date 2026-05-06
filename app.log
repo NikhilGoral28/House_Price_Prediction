@@ -1,0 +1,153 @@
+2026-05-06 15:45:07,818 [INFO] Successfully loaded best_model.pkl
+2026-05-06 15:45:07,820 [INFO] Using model: Linear Regression
+2026-05-06 15:45:07,823 [WARNING] Waitress not found. Falling back to Flask dev server.
+2026-05-06 15:45:07,862 [WARNING]  * Debugger is active!
+2026-05-06 15:45:07,866 [INFO]  * Debugger PIN: 561-462-494
+2026-05-06 15:45:43,250 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\__init__.py', reloading
+2026-05-06 15:45:43,252 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\__init__.py', reloading
+2026-05-06 15:45:43,252 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\__init__.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\__main__.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\__main__.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\adjustments.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\adjustments.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\buffers.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\buffers.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\channel.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\channel.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\compat.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\compat.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\parser.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\parser.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\proxy_headers.py', reloading
+2026-05-06 15:45:43,253 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\proxy_headers.py', reloading
+2026-05-06 15:45:43,257 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\receiver.py', reloading
+2026-05-06 15:45:43,258 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\receiver.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\rfc7230.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\rfc7230.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\runner.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\runner.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\server.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\server.py', reloading
+2026-05-06 15:45:43,259 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\task.py', reloading
+2026-05-06 15:45:43,261 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\task.py', reloading
+2026-05-06 15:45:43,261 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\trigger.py', reloading
+2026-05-06 15:45:43,261 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\trigger.py', reloading
+2026-05-06 15:45:43,261 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\utilities.py', reloading
+2026-05-06 15:45:43,263 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\utilities.py', reloading
+2026-05-06 15:45:43,263 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\wasyncore.py', reloading
+2026-05-06 15:45:43,264 [INFO]  * Detected change in 'C:\\Users\\nikhi\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\waitress\\wasyncore.py', reloading
+2026-05-06 15:45:44,676 [INFO] Successfully loaded best_model.pkl
+2026-05-06 15:45:44,676 [INFO] Using model: Linear Regression
+2026-05-06 15:45:44,688 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 15:45:44,693 [INFO] Serving on http://0.0.0.0:5000
+2026-05-06 15:46:02,411 [INFO] Successfully loaded best_model.pkl
+2026-05-06 15:46:02,412 [INFO] Using model: Linear Regression
+2026-05-06 15:46:02,421 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 15:46:02,426 [INFO] Serving on http://0.0.0.0:5000
+2026-05-06 15:47:15,735 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5332354.93
+2026-05-06 15:48:39,575 [INFO] Prediction successful: Apartment | 1500.0sqft | Value: 6679309.12
+2026-05-06 15:50:23,725 [INFO] Prediction successful: Independent house | 2000.0sqft | Value: 11523861.67
+2026-05-06 15:59:36,162 [INFO] Prediction successful: Apartment | 1500.0sqft | Value: 6701407.81
+2026-05-06 16:01:06,389 [INFO] Prediction successful: Independent house | 2500.0sqft | Value: 14394234.06
+2026-05-06 16:01:15,666 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 9754523.05
+2026-05-06 16:01:23,758 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 8962060.84
+2026-05-06 16:02:08,639 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 8949538.25
+2026-05-06 16:02:11,154 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 8949538.25
+2026-05-06 16:03:36,080 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 8949538.25
+2026-05-06 16:03:44,042 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 9742000.46
+2026-05-06 16:10:34,082 [INFO] Prediction successful: Apartment | 1500.0sqft | Value: 6679309.12
+2026-05-06 16:11:28,603 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 16:11:38,197 [INFO] Prediction successful: Apartment | 900.0sqft | Value: 4004206.13
+2026-05-06 16:11:44,404 [INFO] Prediction successful: Independent house | 900.0sqft | Value: 5166283.08
+2026-05-06 16:11:53,753 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 9779568.23
+2026-05-06 16:12:05,044 [INFO] Prediction successful: Row bunglow | 1700.0sqft | Value: 8669528.52
+2026-05-06 16:12:08,763 [INFO] Prediction successful: Row bunglow | 1700.0sqft | Value: 7877066.32
+2026-05-06 16:16:00,049 [INFO] Successfully loaded best_model.pkl
+2026-05-06 16:16:00,050 [INFO] Using model: Linear Regression
+2026-05-06 16:16:00,065 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 16:16:00,069 [INFO] Serving on http://0.0.0.0:5000
+2026-05-06 16:16:30,600 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 16:16:52,320 [INFO] Prediction successful: Apartment | 1500.0sqft | Value: 6679309.12
+2026-05-06 16:18:30,137 [INFO] Prediction successful: Apartment | 1500.0sqft | Value: 6679309.12
+2026-05-06 16:30:33,525 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 16:52:15,010 [INFO] Successfully loaded best_model.pkl
+2026-05-06 16:52:15,010 [INFO] Using model: Linear Regression
+2026-05-06 16:52:15,031 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 16:52:15,037 [INFO] Serving on http://0.0.0.0:5000
+2026-05-06 17:01:51,308 [INFO] Successfully loaded best_model.pkl
+2026-05-06 17:01:51,310 [INFO] Using model: Linear Regression
+2026-05-06 17:01:51,369 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 17:01:51,389 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 17:40:12,130 [INFO] Prediction successful: Apartment | 1.0sqft | Value: 4428.76
+2026-05-06 17:40:48,429 [INFO] Prediction successful: Apartment | 1000.0sqft | Value: 4442377.50
+2026-05-06 17:44:33,853 [INFO] Successfully loaded best_model.pkl
+2026-05-06 17:44:33,863 [INFO] Using model: Linear Regression
+2026-05-06 17:44:33,901 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 17:44:33,908 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 17:45:01,568 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 17:46:31,948 [INFO] Prediction successful: Independent house | 1200.0sqft | Value: 6890630.34
+2026-05-06 17:46:43,355 [INFO] Prediction successful: Independent house | 12000.0sqft | Value: 69894134.47
+2026-05-06 17:48:15,248 [INFO] Prediction successful: Independent house | 12000.0sqft | Value: 64300283.58
+2026-05-06 17:50:42,322 [INFO] Prediction successful: Independent house | 120.0sqft | Value: 630545.59
+2026-05-06 17:50:50,331 [INFO] Prediction successful: Apartment | 120.0sqft | Value: 475602.00
+2026-05-06 19:49:11,497 [INFO] Prediction successful: Apartment | 400.0sqft | Value: 1775449.07
+2026-05-06 20:03:38,904 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 20:04:40,551 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5350033.88
+2026-05-06 20:07:15,416 [INFO] Prediction successful: Apartment | 1200.0sqft | Value: 5341194.41
+2026-05-06 20:09:24,075 [INFO] Prediction successful: Apartment | 1000.0sqft | Value: 4442377.50
+2026-05-06 20:09:33,182 [INFO] Prediction successful: Apartment | 1000.0sqft | Value: 4442377.50
+2026-05-06 20:11:46,314 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:11:46,316 [INFO] Using model: Linear Regression
+2026-05-06 20:11:46,326 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:11:46,337 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:12:38,974 [INFO] Prediction successful: Independent house | 501.0sqft | Value: 2870956.13
+2026-05-06 20:16:47,101 [INFO] Prediction successful: Apartment | 5000.0sqft | Value: 22447541.69
+2026-05-06 20:17:19,020 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:17:19,020 [INFO] Using model: Linear Regression
+2026-05-06 20:17:19,030 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:17:19,035 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:17:31,166 [INFO] Prediction successful: Apartment | 600.0sqft | Value: 2663924.57
+2026-05-06 20:18:18,581 [INFO] Prediction successful: Apartment | 1700.0sqft | Value: 7572011.41
+2026-05-06 20:18:24,534 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 9767045.64
+2026-05-06 20:18:31,468 [INFO] Prediction successful: Row bunglow | 1700.0sqft | Value: 8669528.52
+2026-05-06 20:18:39,724 [INFO] Prediction successful: Row bunglow | 1700.0sqft | Value: 7877066.32
+2026-05-06 20:18:43,837 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 8974583.43
+2026-05-06 20:21:40,542 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:21:40,542 [INFO] Using model: Linear Regression
+2026-05-06 20:21:40,551 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:21:40,557 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:23:45,118 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:23:45,120 [INFO] Using model: Linear Regression
+2026-05-06 20:23:45,130 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:23:45,137 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:26:31,436 [INFO] Prediction successful: Apartment | 800.0sqft | Value: 3552900.72
+2026-05-06 20:28:20,771 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:28:20,771 [INFO] Using model: Linear Regression
+2026-05-06 20:28:20,782 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:28:20,787 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:28:51,392 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:28:51,394 [INFO] Using model: Linear Regression
+2026-05-06 20:28:51,406 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:28:51,411 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:30:31,657 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:30:31,657 [INFO] Using model: Linear Regression
+2026-05-06 20:30:31,668 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:30:31,675 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:30:53,788 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:30:53,788 [INFO] Using model: Linear Regression
+2026-05-06 20:30:53,800 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:30:53,806 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:33:50,061 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:33:50,061 [INFO] Using model: Linear Regression
+2026-05-06 20:33:50,072 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:33:50,077 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:40:26,172 [INFO] Successfully loaded best_model.pkl
+2026-05-06 20:40:26,173 [INFO] Using model: Linear Regression
+2026-05-06 20:40:26,187 [INFO] Starting production server with Waitress on port 5000...
+2026-05-06 20:40:26,194 [INFO] Serving on http://127.0.0.1:5000
+2026-05-06 20:40:33,451 [INFO] Prediction successful: Apartment | 500.0sqft | Value: 2219624.24
+2026-05-06 20:41:20,215 [INFO] Prediction successful: Apartment | 800.0sqft | Value: 3552900.72
+2026-05-06 20:41:41,329 [INFO] Prediction successful: Apartment | 500.0sqft | Value: 2219624.24
+2026-05-06 20:42:05,439 [INFO] Prediction successful: Independent house | 500.0sqft | Value: 2865222.55
+2026-05-06 20:43:20,778 [INFO] Prediction successful: Apartment | 500.0sqft | Value: 2215941.13
+2026-05-06 20:43:28,619 [INFO] Prediction successful: Apartment | 600.0sqft | Value: 2663924.57

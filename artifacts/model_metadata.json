@@ -1,0 +1,6 @@
+{
+    "model_name": "Linear Regression",
+    "algorithm": "linear_regression",
+    "accuracy_r2": 0.8769,
+    "last_updated": "2026-05-06 15:44:39"
+}
