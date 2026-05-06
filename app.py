@@ -45,7 +45,9 @@ def load_resources():
         logger.error(f"Error loading resources: {str(e)}")
 
 # Initialize on startup
-load_resources()
+if cached_data['model'] is None:
+    logger.info("Loading model on first request...")
+    load_resources()
 
 @app.after_request
 def add_security_headers(response):
