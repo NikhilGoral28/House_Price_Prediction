@@ -5,6 +5,7 @@ import pandas as pd
 import joblib
 import os
 from datetime import datetime
+from waitress import serve
 
 # Setup Logging
 logging.basicConfig(
@@ -137,11 +138,11 @@ def predict():
         return jsonify({'error': 'An internal error occurred during prediction'}), 500
 
 if __name__ == '__main__':
-    # Use Waitress if available for production
+    port = int(os.environ.get("PORT", 5000))
+
     try:
-        from waitress import serve
-        logger.info("Starting production server with Waitress on port 5000...")
-        serve(app, host='127.0.0.1', port=5000)
+        logger.info(f"Starting production server with Waitress on port {port}...")
+        serve(app, host='0.0.0.0', port=port)
     except ImportError:
         logger.warning("Waitress not found. Falling back to Flask dev server.")
-        app.run(debug=True, port=5000)
+        app.run(host='0.0.0.0', port=port, debug=True)
