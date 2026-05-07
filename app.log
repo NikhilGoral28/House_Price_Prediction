@@ -151,3 +151,16 @@
 2026-05-06 20:42:05,439 [INFO] Prediction successful: Independent house | 500.0sqft | Value: 2865222.55
 2026-05-06 20:43:20,778 [INFO] Prediction successful: Apartment | 500.0sqft | Value: 2215941.13
 2026-05-06 20:43:28,619 [INFO] Prediction successful: Apartment | 600.0sqft | Value: 2663924.57
+2026-05-07 14:15:22,595 [INFO] Loading model on first request...
+2026-05-07 14:15:37,964 [INFO] Successfully loaded best_model.pkl
+2026-05-07 14:15:37,988 [INFO] Using model: Linear Regression
+2026-05-07 14:15:37,989 [INFO] Starting production server with Waitress on port 5000...
+2026-05-07 14:15:37,997 [INFO] Serving on http://0.0.0.0:5000
+2026-05-07 14:29:44,921 [INFO] Prediction successful: Apartment | 1000.0sqft | Value: 4442377.50
+2026-05-07 14:30:31,992 [INFO] Loading model on first request...
+2026-05-07 14:30:34,889 [INFO] Successfully loaded best_model.pkl
+2026-05-07 14:30:34,916 [INFO] Using model: Linear Regression
+2026-05-07 14:30:34,922 [INFO] Starting production server with Waitress on port 5000...
+2026-05-07 14:30:34,945 [INFO] Serving on http://0.0.0.0:5000
+2026-05-07 14:30:50,997 [INFO] Prediction successful: Apartment | 500.0sqft | Value: 2215941.13
+2026-05-07 14:31:26,016 [INFO] Prediction successful: Independent house | 1700.0sqft | Value: 9767045.64

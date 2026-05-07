@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateConstraints() {
         const type = typeSelect.value;
         const area = parseFloat(areaInput.value) || 0;
+        const maxArea = type === 'Apartment' ? 2000 : 3000;
+        areaInput.placeholder = `500 - ${maxArea.toLocaleString()}`;
         const range = getValidBHKRange(type, area);
         const currentBHK = parseInt(bhkInput.value) || 0;
 
@@ -64,9 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // General Area Limits (Absolute bounds)
-        if (area > 10000 || (area < 500 && area > 0)) {
+        if (area > maxArea || (area < 500 && area > 0)) {
             areaInput.style.borderColor = '#ef4444';
-            areaInfo.textContent = "Area must be between 500 and 10,000 sqft";
+            areaInfo.textContent = `Area for ${typeSelect.value} must be between 500 and ${maxArea.toLocaleString()} sqft`;
         } else {
             areaInput.style.borderColor = '';
             areaInfo.textContent = "Estimated square footage.";
@@ -86,8 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const area = parseFloat(areaInput.value);
         const bhk = parseInt(bhkInput.value);
 
-        if (area < 500 || area > 10000) {
-            alert("Area must be between 500 and 10,000 sqft.");
+        const maxArea = type === 'Apartment' ? 2000 : 3000;
+        if (area < 500 || area > maxArea) {
+            alert(`Area for ${type} must be between 500 and ${maxArea.toLocaleString()} sqft.`);
             areaInput.focus();
             return;
         }
@@ -209,11 +212,13 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('/api/metadata');
             const data = await response.json();
-            if (data.model_name) {
-                document.getElementById('activeModel').textContent = `Powered by ${data.model_name} (Acc: ${data.accuracy_r2 * 100}%)`;
+            const modelEl = document.getElementById('activeModel');
+            if (data.model_name && modelEl) {
+                modelEl.textContent = `Powered by ${data.model_name} (Acc: ${data.accuracy_r2 * 100}%)`;
             }
         } catch (err) {
-            document.getElementById('activeModel').textContent = 'AI Engine Active';
+            const modelEl = document.getElementById('activeModel');
+            if (modelEl) modelEl.textContent = 'AI Engine Active';
         }
     }
     fetchMetadata();

@@ -88,8 +88,10 @@ def predict():
         except (ValueError, TypeError):
             return jsonify({'error': 'Invalid numeric values for BHK or Area'}), 400
 
-        if area < 500 or area > 10000:
-            return jsonify({'error': 'Area must be between 500 and 10,000 sqft'}), 400
+        # Type-specific area validation
+        max_area = 2000 if prop_type == 'Apartment' else 3000
+        if area < 500 or area > max_area:
+            return jsonify({'error': f'Area for {prop_type} must be between 500 and {max_area:,} sqft'}), 400
         
         if bhk <= 0:
             return jsonify({'error': 'BHK must be a positive value'}), 400
